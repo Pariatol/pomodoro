@@ -28,7 +28,7 @@ body{
     padding:.5rem;
     display:flex;
     font-weight:500;
-    font-size:1.5rem;
+    font-size:3rem;
 }
 
 .break-session-label #break-label,#session-label{
@@ -60,7 +60,7 @@ body{
 h1{
     text-align:center;
     font-weight:700;
-    font-size:2.5rem;
+    font-size:5rem;
     border:3px solid rgb(252, 133, 152);
     width:auto;
     padding:1rem;
@@ -71,20 +71,20 @@ h1{
     text-align:center;
     border:1px solid red;
     padding:.7rem;
-    font-size:1.9rem;
+    font-size:5rem;
     border:3px solid rgb(252, 133, 152);
     border-radius:2rem;
 }
 
 #time-left{
     font-family:'Digital';
-    font-size:3rem;
+    font-size:7rem;
 }
 
 .buttons{
     display:flex;
     padding:.2rem;
-    font-size:2rem;
+    font-size:5rem;
     cursor:pointer;
 }
 
