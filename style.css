@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "Digital";
+    src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot");
+    src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff") format("woff"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7") format("svg");
+}
+
+html{
+    font-size:10px;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(39, 35, 35);
+}
+
+.main{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    color:rgb(252, 133, 152);
+
+}
+
+.break-session-label{
+    padding:.5rem;
+    display:flex;
+    font-weight:500;
+    font-size:1.5rem;
+}
+
+.break-session-label #break-label,#session-label{
+    margin:.5rem;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.far, .fas{
+    cursor:pointer;
+}
+
+.far:hover{
+    color:lightpink;
+}
+
+.fas:hover{
+    color:lightpink;
+}
+
+.far:active{
+    transform:scale(-1);
+    color:lightgray;
+}
+
+
+h1{
+    text-align:center;
+    font-weight:700;
+    font-size:2.5rem;
+    border:3px solid rgb(252, 133, 152);
+    width:auto;
+    padding:1rem;
+    border-radius:2rem;
+}
+
+.session-infos{
+    text-align:center;
+    border:1px solid red;
+    padding:.7rem;
+    font-size:1.9rem;
+    border:3px solid rgb(252, 133, 152);
+    border-radius:2rem;
+}
+
+#time-left{
+    font-family:'Digital';
+    font-size:3rem;
+}
+
+.buttons{
+    display:flex;
+    padding:.2rem;
+    font-size:2rem;
+    cursor:pointer;
+}
+
+.buttons div{
+    margin:.1rem;
+}
+
+@media(max-width:415px){
+    .main{
+        height:90vh;
+    }
+
+    h1{
+        font-size:3rem;
+    }
+
+    .session-infos{
+        font-size:3rem;
+    }
+
+    .buttons{
+        font-size:4rem;
+    }
+
+    .break-session-label{
+        font-size:2rem;
+    }
+}

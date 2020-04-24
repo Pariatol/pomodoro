@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app2.js" defer></script>
+    <script src="https://kit.fontawesome.com/e61bbbca85.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="main">
+  <h1>Pomodoro Clock</h1>
+  <div class="break-session-label">
+    <div id="break-label">
+        <div>Break length</div>
+        <div class="increment-decrement"><span id="break-decrement"><i class="far fa-minus-square"></i></span>&nbsp;<span id="break-length">5</span>&nbsp;<span id="break-increment"><i class="far fa-plus-square"></i></span></div>
+      </div>
+      
+      <div id="session-label">
+        <div>Session length</div>
+        <div class="increment-decrement"><span id="session-decrement"><i class="far fa-minus-square"></i></span>&nbsp;<span id="session-length">25</span>&nbsp;<span id="session-increment"><i class="far fa-plus-square"></i></span></div>
+      </div>
+  </div>
+      
+  <div class="session-infos">
+      <div id="timer-label">Session</div>
+        <div id="time-left">25:00</div>
+  </div>
+      
+    <div class="buttons">
+          <div id="start_stop"><i class="far fa-play-circle"></i><i class="far fa-pause-circle"></i></div>
+          <div id="reset"><i class="fas fa-redo"></i></div>
+    </div>
+  </div>
+    
+</body>
+</html>
